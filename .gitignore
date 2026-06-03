@@ -1,0 +1,9 @@
+# Ignore local SQLite databases (Required by rubric)
+data/db/*.db
+*.db
+
+# Ignore python caches and virtual environments
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
